@@ -1,0 +1,129 @@
+<h1>{{ mode === "create" ? "Them" : "Cap nhat" }} San Pham</h1>
+<form id="form" (ngSubmit)="onSubmit()" [formGroup]="productForm" action="">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      placeholder="Ten san pham"
+      formControlName="name"
+    />
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('name')?.hasError('required') &&
+        (productForm.get('name')?.touched || productForm.get('name')?.dirty)
+      "
+    >
+      Name requierd
+    </div>
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('name')?.hasError('minlength') &&
+        (productForm.get('name')?.touched || productForm.get('name')?.dirty)
+      "
+    >
+      3 ky tu
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="image" class="form-label">Image</label>
+    <input
+      type="text"
+      class="form-control"
+      id="image"
+      placeholder="Image san pham"
+      formControlName="image"
+    />
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('image')?.hasError('required') &&
+        (productForm.get('image')?.touched || productForm.get('image')?.dirty)
+      "
+    >
+      Image requierd
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Price</label>
+    <input
+      type="number"
+      class="form-control"
+      id="price"
+      placeholder="Price san pham"
+      formControlName="price"
+    />
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('price')?.hasError('required') &&
+        (productForm.get('price')?.touched || productForm.get('price')?.dirty)
+      "
+    >
+      Price requierd
+    </div>
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('price')?.hasError('min') &&
+        (productForm.get('price')?.touched || productForm.get('price')?.dirty)
+      "
+    >
+      Price > 0
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="quality" class="form-label">Quality</label>
+    <input
+      type="number"
+      class="form-control"
+      id="quality"
+      placeholder="So luong san pham"
+      formControlName="quality"
+    />
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('quality')?.hasError('required') &&
+        (productForm.get('quality')?.touched ||
+          productForm.get('quality')?.dirty)
+      "
+    >
+      Price requierd
+    </div>
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('quality')?.hasError('min') &&
+        (productForm.get('quality')?.touched ||
+          productForm.get('quality')?.dirty)
+      "
+    >
+      Quanlity > 0
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <input
+      type="text"
+      class="form-control"
+      id="description"
+      placeholder="Mo ta san pham"
+      formControlName="description"
+    />
+    <div
+      class="error text-danger"
+      *ngIf="
+        productForm.get('description')?.hasError('required') &&
+        (productForm.get('description')?.touched ||
+          productForm.get('description')?.dirty)
+      "
+    >
+      Description requierd
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Gui</button>
+</form>

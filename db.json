@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm B",
+      "price": 200,
+      "id": 2,
+      "image": "https://www.oca.edu.vn/uploads/images/info/meo-trong-tieng-anh-la-gi.png",
+      "quality": 1000,
+      "description": "hihii"
+    },
+    {
+      "name": "Nguy hiểm",
+      "image": "https://img.thuthuat123.com/uploads/2019/06/11/anh-nen-meo-de-thuong_093846627.jpg",
+      "price": -12000,
+      "quality": 10,
+      "description": "hichic",
+      "id": 6
+    },
+    {
+      "name": "hihi",
+      "image": "https://www.oca.edu.vn/uploads/images/info/meo-trong-tieng-anh-la-gi.png",
+      "price": 100,
+      "quality": 12,
+      "description": "rat met",
+      "id": 10
+    },
+    {
+      "name": "gigihihi",
+      "image": "https://www.oca.edu.vn/uploads/images/info/meo-trong-tieng-anh-la-gi.png",
+      "price": 1,
+      "quality": 12,
+      "description": "hihi",
+      "id": 11
+    },
+    {
+      "name": "ten",
+      "image": "https://img.thuthuat123.com/uploads/2019/06/11/anh-nen-meo-de-thuong_093846627.jpg",
+      "price": 19,
+      "quality": 12,
+      "description": "hihi",
+      "id": 12
+    },
+    {
+      "name": "tren",
+      "image": "https://res.cloudinary.com/dtjohlrjq/image/upload/v1686501153/duanmau_afejy6.jpg",
+      "price": 12,
+      "quality": 10,
+      "description": "rat chi laf rac roi",
+      "id": 13
+    },
+    {
+      "name": "hih",
+      "image": "https://img.thuthuat123.com/uploads/2019/06/11/anh-nen-meo-de-thuong_093846627.jpg",
+      "price": 10,
+      "quality": 19,
+      "description": "hihi",
+      "id": 14
+    },
+    {
+      "name": "      hihi",
+      "image": "https://img.thuthuat123.com/uploads/2019/06/11/anh-nen-meo-de-thuong_093846627.jpg",
+      "price": 90,
+      "quality": 12,
+      "description": "hihi",
+      "id": 15
+    },
+    {
+      "name": "      vfgdtfyhvnb ",
+      "image": "xgbxfhc",
+      "price": 566,
+      "quality": 5676,
+      "description": "bcgvhj",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$M3G4x/3aQU65/83LID9eQ.4InnNsG910el8NgvoN4JqYNrjehTBOO",
+      "name": "hihihihihi",
+      "id": 1
+    },
+    {
+      "email": "trangg@gmail.com",
+      "password": "$2a$10$mcV6RU/4ITbwxR4WP0BRj.XwRdfMYASYIe9ztIPs7zCpNS8w6YU0m",
+      "name": "trang",
+      "id": 2
+    }
+  ]
+}
